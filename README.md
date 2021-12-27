@@ -1,2 +1,2 @@
 # rsschool-cv-html
-https://github.com/Alitalia60/rsschool-cv/
+https://Alitalia60.github.io/rsschool-cv/ HTML CV
