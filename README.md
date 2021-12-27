@@ -1,2 +1,2 @@
-# rsschool-cv
-https://github.com/Alitalia60/rsschool-cv/tree/gh-pages/index.html
+# rsschool-cv-html
+https://github.com/Alitalia60/rsschool-cv/blob/rsschool-cv-html/index.html
