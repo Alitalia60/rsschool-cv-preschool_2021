@@ -1,47 +1,88 @@
-/* header */
-body{
-    background-color: lightslategray;
-}
-main {
-    border: 6px solid #224432;
-    display: flex;
-    width: 60%;
-    margin: auto;
-    font-size: 24px;
-}
-header {
-    background-color: aquamarine;
-    display: flex;
-}
-
-.left_side {
-    padding: 10px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
-.right_side {
-    padding: 10px;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-.header__avatar{
-    flex-direction: column;
-    justify-self: center;
-    /* margin: auto; */
-    width: 150px;
-    height: 150px;
-    background-image: url('./asserts/avatar.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.left__side{
-    background-color: chartreuse;
-}
-
-footer{
-    align-self: flex-end;
-}
+    /* header */
+    
+    body {
+        background-color: lightslategray;
+        color: white;
+    }
+    
+    main {
+        border: 6px solid #224432;
+        display: flex;
+        width: 60%;
+        margin: auto;
+        font-size: 24px;
+    }
+    
+    h2 {
+        /* border: 1px black solid; */
+        text-align: right;
+    }
+    /* ======================================.left_side */
+    
+    .left_side {
+        background-color: teal;
+        display: flex;
+        padding: 10px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    .left_side__avatar {
+        flex-direction: column;
+        justify-self: center;
+        /* margin: auto; */
+        width: 250px;
+        height: 250px;
+        background-image: url('./asserts/pris503528338b331fdf.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-origin: content-box;
+    }
+    /* =========================================.list__contacts  */
+    
+    .list__contacts {
+        list-style: none;
+    }
+    
+    .list__contacts>button {
+        background-color: #224432;
+        color: white;
+    }
+    
+    .list__contacts-item {
+        display: flex;
+        border: 5px solid #224432;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 10px; */
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #224432;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .list__contacts img {
+        /* background: none; */
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+    }
+    
+    .list__contacts-item:hover {
+        color: red;
+    }
+    /* ============.right_side */
+    
+    .right_side {
+        padding: 20px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+        align-self: flex-end;
+    }

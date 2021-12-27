@@ -2,112 +2,113 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Andrew Litvinov</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Litvinov</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <main>
-      <header class="left_side">
-         <div class="header__avatar"></div>
-         <h1>Andrew Litvinov</h1>
-         <div class="header__student">
-            RSSchool Student
-         </div>
-         <div class="contacts">
-            <ul class="list__contacts">
-               <li class="li">viber/tel: +375297710759</li>
-               <li class="li">Skype: Alitalia60</li>
-               <li class="li">E-mail: lita.study@bk.ru</li>
-               <li class="li">discord: Alitalia60#5200</li>
-            </ul>
-         </div>
-         <footer>
-            <a href="https://rs.school/"></a>
-            <span>
-               RSSchool
-            </span>
-         </footer>
+    <main>
+        <header class="left_side">
+            <div class="left_side__avatar">
 
-      </header>
-      <div class="right_side">
-         <div class="right_side__about">
-            <h2>About myself</h2>
-            <p>
-               I am an entrepreneur. my work is always close to computers and programming. I have no experience in
-               modern
-               IT
-               although
-               my experience in programming such as 1C Enterprise is long.
-               Here is some code example from 1C Enterprise:
-            </p>
-         </div>
-         here's some example of code
-         <pre style="font-size: 16px;">
+            </div>
+            <h1>Andrew Litvinov</h1>
+            <div class="left_side__student">
+                RSSchool Student
+            </div>
+            <div class="contacts">
+                <ul class="list__contacts">
+                    <li class="list__contacts-item">
+                        <div>
+                            <img src="./asserts/viber.png" alt="skype">
+                            <a href="viber://chat?">viber/tel: +375297710759</a>
+                        </div>
+                    </li>
+                    <li class="list__contacts-item">
+                        <div>
+                            <img src="./asserts/skype-logo.svg" alt="skype">
+                            <a href="skype://chat?">Skype: Alitalia60</a>
+                        </div>
+                    </li>
+                    <li class="list__contacts-item">
+                        <img src=" ./asserts/kindpng_2776343.png " alt=" skype ">
+                        <a href=" email ">E-mail: lita.study@bk.ru</a>
+                    </li>
+                </ul>
+            </div>
+            <li class=" list__contacts-item ">
+                <div>
+                    <img src=" ./asserts/Discord new 2021.svg " alt=" skype ">
+                    <a href=" https://discord.com/api ">discord: Alitalia60#5200</a>
+                </div>
+            </li>
+            </ul>
+
+        </header>
+        <footer>
+            <img src=" ./asserts/logo-rs.svg " width=" 100px " height=" 100px " alt=" RSSchool logo ">
+            <a target=" _blank " href=" https://rollingscopes.com/ "></a>
+        </footer>
+        <div class=" right_side ">
+            <div class=" right_side__about ">
+                <h2>About myself</h2>
+                <p>
+                    I am an entrepreneur. my work is always close to computers and programming. I have no experience in modern IT although my experience in programming such as 1C Enterprise is long. Here is some code example from 1C Enterprise:
+                </p>
+            </div>
+            here's some example of code
+            <pre style=" font-size: 16px; ">
     Процедура ПриОткрытии()
         ПриЗаписиПерепроводить =Ложь;
         Если Курс=0 Тогда
-            Курс = ?(ЭтоНовый(), ОбщийМодуль1.глКурсВалюты(Константы.ВалютаУчета.Получить(), Дата), Курс);
+            Курс = ?(ЭтоНовый(), 
+               ОбщийМодуль1.глКурсВалюты(Константы.ВалютаУчета.Получить(),
+               Дата), Курс);
         КонецЕсли;
         Если НЕ Контрагент.Пустая() тогда
             ПроверкаНаЧерныйСписок(Контрагент)
         КонецЕсли;
     КонецПроцедуры
             </pre>
-         <p>
-            I like to learn everything new in programming.
-            Now, I study HTML, CSS, JavaScript, Node.js, TypeScript and a lot other usefull and interesting things
-            at
-            school.
-         </p>
-
-         <div class="right_side__experience">
-            <h2>Work experience</h2>
             <p>
-               I haven't experience in any IT but have it in my business.
-               As engineer , I was created some electronic units on microcontrollers, and create programs for it on
-               Assembler.
-               At my job, developed specific database fo enterprise, payment accounting program for utilities, for
-               cable TV.
-               Just now i'm working as a sysadmin at own company and continue to support some businesses that do
-               not
-               have their own sysadmin.
+                I like to learn everything new in programming. Now, I study HTML, CSS, JavaScript, Node.js, TypeScript and a lot other usefull and interesting things at school.
             </p>
-         </div>
 
-         <div class="right_side__education">
-            <h2>Education</h2>
-            <p>
+            <div class=" right_side__experience ">
+                <h2>Work experience</h2>
+                <p>
+                    I haven't experience in any IT companies but have it in my business. Early, as engineer, I disigned some electronic units on microcontrollers, and create programs for it on Assembler. At my job, developed specific database fo enterprise, payment accounting
+                    program for public utilities organizations, for city cable TV. Just now i'm working as a sysadmin in my own company and continue to support some businesses that do not have their own sysadmin.
+                </p>
+            </div>
 
-               Higher education: Yuri Gagarin State Technical University of Saratov (modern name). Engineer,
-               specialty
-               automation and
-               telemechanics.
-            </p>
-         </div>
+            <div class=" right_side__education ">
+                <h2>Education</h2>
+                <p>
+                    Higher education: Yuri Gagarin State Technical University of Saratov (modern name). Engineer, specialty automation and telemechanics.
+                </p>
+            </div>
 
-         <div class="right_side__selfeducation">
-            <h2>Self-education</h2>
-            <p>
-               Platforms 1C6, 1C7, 1C8 Enterprise. in the process of studying: JavaScript, Node.js;
-               Study to familiarize Java for Android, Python;
-               I use IDE IntelliJ IDEA & PyCharm by JetBrains and AndroidStudio, Visual Studio Code.
-            </p>
-         </div>
+            <div class=" right_side__selfeducation ">
+                <h2>Self-education</h2>
+                <p>
+                    Platforms 1C6, 1C7, 1C8 Enterprise. in the process of studying: JavaScript, Node.js; Study to familiarize Java for Android, Python; I use IDE IntelliJ IDEA & PyCharm by JetBrains and AndroidStudio, Visual Studio Code.
+                </p>
+            </div>
 
-         <div class="right_side__languages">
-            <h2>Languages</h2>
-            <ul>
-               <li>Russian - perfectly</li>
-               <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
-            </ul>
-         </div>
-      </div>
+            <div class=" right_side__languages ">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - perfectly</li>
+                    <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
+                </ul>
+            </div>
+        </div>
 
-   </main>
+    </main>
 </body>
 
 </html>
