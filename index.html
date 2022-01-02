@@ -17,14 +17,16 @@
 <body>
     <div class="wrapper">
         <div class="left__side">
+            <!-- <div class="left__side_bg-photo top_section"> -->
             <div class="left__side_bg-photo">
                 <div class="left__side_photo">
-                    <img src="asserts/avatar.png" width="260" height="260" alt="should be photo">
+                    <!-- <img class="left__side_img" src="asserts/avatar.png" alt="should be photo"> -->
                 </div>
             </div>
 
+            <!-- <div class="left__side_content bottom_section"> -->
             <div class="left__side_content">
-                <div class="left__side_contacts">
+                <div class="left__side_contacts" id="contact">
                     <h2>CONTACT</h2>
                     <ul class="left__side-ul">
                         <li class="contact__item">
@@ -38,12 +40,12 @@
                         </li>
                         <li class="contact__item">
                             <!-- <img class="list__contacts_img" src=" ./asserts/kindpng_2776343.png " alt="email"> -->
-                            <a href=" email ">E-mail: lita.study@bk.ru</a>
+                            <a href="https://gmail.com">E-mail: lita.study@bk.ru</a>
 
                         </li>
                     </ul>
                 </div>
-                <div class="left__side_education">
+                <div class="left__side_education" id="education">
                     <h2>EDUCATIONS</h2>
                     <p>
                         Higher education: Yuri Gagarin State Technical University of Saratov (modern name). Engineer, specialty automation and telemechanics.
@@ -59,60 +61,87 @@
 
                 </div>
             </div>
+            <div class="left__side_footer">
+                <img class="footer__img" src="https://rs.school/images/partners/logo-rs.svg" width="60" height="60" alt=" RSSchool logo ">
+                <a class="footer__link" href="https://rs.school ">RS School</a> 2021
+            </div>
+
         </div>
 
         <div class="right__side">
+            <!-- <div class="right__side_header top_section"> -->
             <div class="right__side_header">
                 <h1>Andrew Litvinov</h1>
                 <div class="right__side_student">
                     <span>RSSchool Student</span>
                 </div>
+
+                <ul class="right__side_nav">
+                    <li class="nav__item">
+                        <a href="#contact">contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education">education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience">experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#languages">languages</a>
+
+                    </li>
+                </ul>
             </div>
+            <!-- <div class="right__side_content bottom_section"> -->
             <div class="right__side_content">
-                <div class="right__side_experience">
+                <div class="right__side_experience" id="experience">
                     <h2>Work experience</h2>
                     <p>
-                        I haven't experience in any IT companies but have it in my business. Early, as engineer, I disigned some electronic units on microcontrollers, and create programs for it on Assembler. At my job, developed specific database fo enterprise, payment accounting
-                        program for public utilities organizations, for city cable TV. Just now i'm working as a sysadmin in my own company and continue to support some businesses that do not have their own sysadmin.
+                        I haven't experience in any IT companies but have it in my business.<br> Early, as engineer, I disigned some electronic units on microcontrollers, and create programs for it on Assembler. At my job, developed specific database
+                        fo enterprise, payment accounting program for public utilities organizations, for city cable TV.
+                        <br> Just now i'm working as a sysadmin in my own company and continue to support some businesses that do not have their own sysadmin.
                     </p>
 
                 </div>
-                <div class="right__side_skills">
-                    <div class="left__side_skills">
-                        <h2>Skills</h2>
-                        <ul>
-                            <li class="skils_item"> <a href="https://ru.wikipedia.org/wiki/1%D0%A1">1C7, 1C8
-                                    Enterprise</a>
-                                <progress max="100" value="60"></progress>
-                            </li>
-                            <li class="skils_item">HTML
-                                <progress max="100" value="50"></progress>
-                            </li>
-                            <li class="skils_item">CSS
-                                <progress max="100" value="50"></progress>
-                            </li>
-                            <li class="skils_item">JavaScript
-                                <progress max="100" value="40"></progress>
-                            </li>
-                            <li class="skils_item">Node.js
-                                <progress max="100" value="30"></progress>
-                            </li>
-                        </ul>
-                        <div class="left__side_languges">
-                            <h2>Languages</h2>
-                            <ul>
-                                <li>Russian - perfectly</li>
-                                <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
-                            </ul>
-
-                        </div>
+                <div class="right__side_skills" id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li class="skils_item"> <a href="https://ru.wikipedia.org/wiki/1%D0%A1">1C7, 1C8
+                                Enterprise</a>
+                            <progress max="100" value="60"></progress>
+                        </li>
+                        <li class="skils_item">HTML
+                            <progress max="100" value="50"></progress>
+                        </li>
+                        <li class="skils_item">CSS
+                            <progress max="100" value="50"></progress>
+                        </li>
+                        <li class="skils_item">JavaScript
+                            <progress max="100" value="40"></progress>
+                        </li>
+                        <li class="skils_item">Node.js
+                            <progress max="100" value="30"></progress>
+                        </li>
+                    </ul>
+                    <div class="skills__code-example">
+                        here's some code example
+                        <pre style="font-size: 12px; background-color: rgb(236, 230, 223);">
+export function updateBoard(boardId: string, ctxBody: IBoard): void {
+    let board = dbBoards.filter((board) => board.id === boardId)[0];
+    if (board) {
+    board.title = ctxBody.title;
+    board.columns = ctxBody.columns}}                        </pre>
                     </div>
-
-                </div>
-                <div class="left__side_footer">
-                    <img class="footer__img" src="https://rs.school/images/partners/logo-rs.svg" width="60" height="60" alt=" RSSchool logo ">
-                    <a class="footer__link" href="https://rs.school ">RS School</a> 2021
-
+                    <div class="right__side_languges" id="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>Russian - perfectly</li>
+                            <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
