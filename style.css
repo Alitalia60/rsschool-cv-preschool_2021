@@ -115,7 +115,8 @@ h2 {
     align-items: center;
 }
 
-.skils_item>progress {}
+
+/* .skils_item>progress {} */
 
 .left__side_footer {
     display: flex;
