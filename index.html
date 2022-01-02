@@ -5,126 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Andrew Litvinov</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- <div class="content"> -->
-
-
-    <main>
-        <nav class="navigation">
-            <ul class="menu">
-                <li class="menu__item">
-                    <a href="#contacts">contacts</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#about">about</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#experience">experience</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#education">education</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#languages">languages</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="content">
-            <header class="left_side">
-                <div class="left__up">
-                    <div class="left_side__avatar"></div>
-                    <h1>Andrew Litvinov</h1>
-                    <div class="left_side__student">
-                        <span>RSSchool Student</span>
-                    </div>
+    <div class="wrapper">
+        <div class="left__side">
+            <div class="left__side_bg-photo">
+                <div class="left__side_photo">
+                    <img src="asserts/avatar.png" width="260" height="260" alt="should be photo">
                 </div>
-                <div class="list__contacts">
-                    <!-- <li class="list__contacts-item"> -->
-                    <div class="list__contacts-item">
-                        <img class="list__contacts_img" src="./asserts/viber.png" alt="viber">
-                        <a href="viber://chat?">viber/tel: +375297710759</a>
-                    </div>
-                    <div class="list__contacts-item">
-                        <img class="list__contacts_img" src="./asserts/skype-logo.svg" alt="skype">
-                        <a href="skype://chat?">Skype: Alitalia60</a>
-                    </div>
-                    <div class="list__contacts-item">
-                        <img class="list__contacts_img" src=" ./asserts/kindpng_2776343.png " alt="email">
-                        <a href=" email ">E-mail: lita.study@bk.ru</a>
-                    </div>
-                    <div class="list__contacts-item">
-                        <img class="list__contacts_img" src=" ./asserts/Discord new 2021.svg " alt="discord">
-                        <a href=" https://discord.com/api ">discord: Alitalia60#5200</a>
-                    </div>
+            </div>
+
+            <div class="left__side_content">
+                <div class="left__side_contacts">
+                    <h2>CONTACT</h2>
+                    <ul class="left__side-ul">
+                        <li class="contact__item">
+                            <!-- <img class="list__contacts_img" src="./asserts/viber.png" alt="viber"> -->
+                            <a href="viber://chat?">viber/tel: +375291234567</a>
+                        </li>
+                        <li class="contact__item">
+                            <!-- <img class="list__contacts_img" src="./asserts/skype-logo.svg" alt="skype"> -->
+                            <a href="skype://chat?">Skype: Alitalia60</a>
+
+                        </li>
+                        <li class="contact__item">
+                            <!-- <img class="list__contacts_img" src=" ./asserts/kindpng_2776343.png " alt="email"> -->
+                            <a href=" email ">E-mail: lita.study@bk.ru</a>
+
+                        </li>
+                    </ul>
                 </div>
-                <footer class="footer">
-                    <img class="footer__img" src=" ./asserts/logo-rs.svg " width=" 60px " height="60px " alt=" RSSchool logo ">
-                    <a class="footer__link" href=" https://rollingscopes.com/ ">RS School</a> 2021
-                </footer>
-            </header>
-            <div class="right_side ">
-                <div class="right_side__about" id="about">
-                    <h2>About myself</h2>
+                <div class="left__side_education">
+                    <h2>EDUCATIONS</h2>
                     <p>
-                        I am an entrepreneur. my work is always close to computers and programming. I have no experience in modern IT although my experience in programming such as 1C Enterprise is long. Here is some code example from 1C Enterprise:
+                        Higher education: Yuri Gagarin State Technical University of Saratov (modern name). Engineer, specialty automation and telemechanics.
                     </p>
-                    here's some example of code
-                    <pre style="font-size: 16px">
-Процедура ПриОткрытии()
-    ПриЗаписиПерепроводить =Ложь;
-    Если Курс=0 Тогда
-        Курс = ?(ЭтоНовый(), 
-            ОбщийМодуль1.глКурсВалюты(Константы.ВалютаУчета.Получить(),
-            Дата), Курс);
-    КонецЕсли;
-    Если НЕ Контрагент.Пустая() тогда
-        ПроверкаНаЧерныйСписок(Контрагент)
-    КонецЕсли;
-КонецПроцедуры
-                </pre>
-                </div>
-                <p>
-                    I like to learn everything new in programming.
-                    <br> Now, I study HTML, CSS, JavaScript, Node.js, TypeScript and a lot other usefull and interesting things at school.
-                </p>
+                    <h3>Self-education</h3>
+                    <p>
+                        Platforms 1C6, 1C7, 1C8 Enterprise.
+                        <br> In the process of studying:
+                        <br> HTML, CSS, JavaScript, Node.js;
+                        <br> Study to familiarize Java for Android, Python;
+                        <br> I use IDE IntelliJ IDEA & PyCharm by JetBrains and AndroidStudio, Visual Studio Code.
+                    </p>
 
-                <div class="right_side__experience" id="experience">
+                </div>
+            </div>
+        </div>
+
+        <div class="right__side">
+            <div class="right__side_header">
+                <h1>Andrew Litvinov</h1>
+                <div class="right__side_student">
+                    <span>RSSchool Student</span>
+                </div>
+            </div>
+            <div class="right__side_content">
+                <div class="right__side_experience">
                     <h2>Work experience</h2>
                     <p>
                         I haven't experience in any IT companies but have it in my business. Early, as engineer, I disigned some electronic units on microcontrollers, and create programs for it on Assembler. At my job, developed specific database fo enterprise, payment accounting
                         program for public utilities organizations, for city cable TV. Just now i'm working as a sysadmin in my own company and continue to support some businesses that do not have their own sysadmin.
                     </p>
-                </div>
 
-                <div class="right_side__education" id="education">
-                    <h2>Education</h2>
-                    <p>
-                        Higher education: Yuri Gagarin State Technical University of Saratov (modern name). Engineer, specialty automation and telemechanics.
-                    </p>
                 </div>
+                <div class="right__side_skills">
+                    <div class="left__side_skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="skils_item"> <a href="https://ru.wikipedia.org/wiki/1%D0%A1">1C7, 1C8
+                                    Enterprise</a>
+                                <progress max="100" value="60"></progress>
+                            </li>
+                            <li class="skils_item">HTML
+                                <progress max="100" value="50"></progress>
+                            </li>
+                            <li class="skils_item">CSS
+                                <progress max="100" value="50"></progress>
+                            </li>
+                            <li class="skils_item">JavaScript
+                                <progress max="100" value="40"></progress>
+                            </li>
+                            <li class="skils_item">Node.js
+                                <progress max="100" value="30"></progress>
+                            </li>
+                        </ul>
+                        <div class="left__side_languges">
+                            <h2>Languages</h2>
+                            <ul>
+                                <li>Russian - perfectly</li>
+                                <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
+                            </ul>
 
-                <div class="right_side__selfeducation">
-                    <h2>Self-education</h2>
-                    <p>
-                        Platforms 1C6, 1C7, 1C8 Enterprise. in the process of studying: JavaScript, Node.js; Study to familiarize Java for Android, Python; I use IDE IntelliJ IDEA & PyCharm by JetBrains and AndroidStudio, Visual Studio Code.
-                    </p>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="left__side_footer">
+                    <img class="footer__img" src="https://rs.school/images/partners/logo-rs.svg" width=" 60px " height="60px " alt=" RSSchool logo ">
+                    <a class="footer__link" href="https://rs.school ">RS School</a> 2021
 
-                <div class="right_side__languages" id="languages">
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Russian - perfectly</li>
-                        <li>English - A2 (Pre-Intermediate). Haven't practice.</li>
-                    </ul>
                 </div>
             </div>
         </div>
-
-    </main>
+    </div>
 </body>
 
 </html>
