@@ -1,218 +1,209 @@
-    html {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 35px;
-        background-color: rgb(141, 141, 170);
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        width: 1140px;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-    
-    ul {
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    h1 {
-        text-transform: uppercase;
-        padding: 30px 50px 10px;
-        text-align: end;
-    }
-    
-    h2 {
-        text-transform: uppercase;
-        border-bottom: 2px solid;
-        padding-bottom: 20px;
-        text-align: end;
-    }
-    
-    .wrapper {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        border: 2px green solid;
-    }
-    
-    .header {
-        min-height: 20%;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .left__side_header {
-        width: 45%;
-        max-height: 25%;
-        /* order: -2; */
-        background-color: white;
-    }
-    
-    .right__side_header {
-        width: 55%;
-        color: white;
-        background-color: black;
-        display: flex;
-        max-height: 25%;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .main {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .left__side {
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        background-color: black;
-    }
-    
-    .left__side_content {
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        position: relative;
-    }
-    
-    .left__side_avatar {
-        background-image: url(asserts/professor.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: 10px grey solid;
-        left: 30px;
-        top: -200px;
-        order: 2;
-        position: absolute;
-        width: 257px;
-        height: 260px;
-    }
-    
-    .left__side_contacts {
-        padding: 30px;
-    }
-    
-    .left__side_education {
-        padding: 30px;
-    }
-    
-    .left__side-ul {
-        list-style: none;
-        padding: 30px;
-    }
-    
-    .left__side_footer {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-top: 2px solid;
-        margin-top: 80px;
-        color: white;
-        background-color: grey;
-    }
-    
-    .footer__link {
-        color: white;
-    }
-    
-    .contact__item {
-        text-decoration: none;
-        margin: 20px 0px;
-        padding: 0px;
-    }
-    
-    .contact__item>a {
-        color: white;
-        text-decoration: none;
-        transition-duration: 0.5s;
-    }
-    
-    .contact__item>a:hover {
-        color: red;
-        text-decoration: none;
-    }
-    
-    .right__side {
-        width: 55%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    
-    .right__side_student {
-        padding: 0px 50px;
-    }
-    
-    .right__side_student>span {
-        display: block;
-        text-align: end;
-    }
-    
-    .right__side_nav {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        justify-content: flex-end;
-        margin-right: 30px;
-        margin-bottom: 0px;
-    }
-    
-    .nav__item {
-        padding: 5px;
-        color: white;
-    }
-    
-    .nav__item>a {
-        color: white;
-        transition: 0.5s;
-        text-decoration: none;
-        font-style: italic;
-    }
-    
-    .nav__item>a:hover {
-        color: red;
-    }
-    
-    .right__side_content {
-        padding: 30px;
-        color: black;
-    }
-    
-    .skils_item {
-        margin-left: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    progress {
-        appearance: none;
-        -moz-appearance: none;
-        -webkit-appearance: none;
-        border: none;
-        background-size: auto;
-    }
-    
-    .right__side_languges {
-        margin-left: 30px;
-    }
-    
-    .footer__img {
-        display: inline-block;
-    }
-    
-    .footer__link {
-        display: inline-block;
-    }
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    background-color: rgb(141, 141, 170);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 30px 50px 10px;
+    text-align: end;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    text-align: end;
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px green solid;
+}
+
+.header {
+    min-height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left__side_header {
+    width: 45%;
+    max-height: 25%;
+    /* order: -2; */
+    background-color: white;
+}
+
+.right__side_header {
+    width: 55%;
+    color: white;
+    background-color: black;
+    display: flex;
+    max-height: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left__side {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.left__side_content {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding: 30px;
+}
+
+.left__side_avatar {
+    background-image: url(assets/professor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 10px grey solid;
+    left: 30px;
+    top: -200px;
+    order: 2;
+    position: absolute;
+    width: 257px;
+    height: 260px;
+}
+
+.left__side-ul {
+    list-style: none;
+    padding: 30px;
+}
+
+.left__side_languges {
+    margin-left: 30px;
+}
+
+.left__side_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid;
+    margin-top: 80px;
+    color: white;
+    background-color: grey;
+}
+
+.footer__link {
+    color: white;
+}
+
+.contact__item {
+    text-decoration: none;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.contact__item>a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.contact__item>a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.right__side {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right__side_student {
+    padding: 0px 50px;
+}
+
+.right__side_student>span {
+    display: block;
+    text-align: end;
+}
+
+.right__side_nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.nav__item {
+    padding: 5px;
+    color: white;
+}
+
+.nav__item>a {
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nav__item>a:hover {
+    color: red;
+}
+
+.right__side_content {
+    padding: 30px;
+    color: black;
+}
+
+.experience-detail {
+    padding: 30px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.skils_item {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__img {
+    display: inline-block;
+}
+
+.footer__link {
+    display: inline-block;
+}
