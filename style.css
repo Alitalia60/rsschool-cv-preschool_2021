@@ -190,6 +190,12 @@ h2 {
     color: black;
 }
 
+.experience-detail {
+    padding: 30px;
+    font-size: 16px;
+    font-style: italic;
+}
+
 .skils_item {
     margin-left: 20px;
     display: flex;
