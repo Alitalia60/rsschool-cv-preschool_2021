@@ -1,2 +1,5 @@
-# rsschool-cv
-https://github.com/Alitalia60/rsschool-cv/tree/gh-pages/cv.md
+# rsschool-cv-html #
+https://Alitalia60.github.io/rsschool-cv/
+
+# rsschool-cv #
+https://Alitalia60.github.io/rsschool-cv/cv
