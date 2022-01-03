@@ -33,16 +33,39 @@
         text-align: end;
     }
     
-    .conainer {
-        display: flex;
-    }
-    
     .wrapper {
-        /* width: 1140px; */
         background-color: white;
         display: flex;
-        /* flex-direction: row; */
-        /* margin: auto; */
+        flex-direction: column;
+        border: 2px green solid;
+    }
+    
+    .header {
+        min-height: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .left__side_header {
+        width: 45%;
+        max-height: 25%;
+        /* order: -2; */
+        background-color: white;
+    }
+    
+    .right__side_header {
+        width: 55%;
+        color: white;
+        background-color: black;
+        display: flex;
+        max-height: 25%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: row;
     }
     
     .left__side {
@@ -55,40 +78,34 @@
         background-color: black;
     }
     
-    .left__side_bg-photo {
-        height: 25vh;
+    .left__side_content {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         position: relative;
-        order: -2;
-        background-color: white;
     }
     
-    .left__side_photo {
-        /* background-image: url(asserts/pensioner.jpg); */
-        background-image: url(asserts/professor-sitting-na-frente-de-um-computador-36777644.jpg);
+    .left__side_avatar {
+        background-image: url(asserts/professor.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         border: 10px grey solid;
         left: 30px;
-        top: 40px;
+        top: -200px;
         order: 2;
         position: absolute;
         width: 257px;
         height: 260px;
     }
-    /* .left__side_img {
-        object-fit: cover;
-        width: 100px;
-        height: 100px;
-    } */
     
-    .left__side_content {
+    .left__side_contacts {
         padding: 30px;
-        background-color: black;
-        /* height: 80vh; */
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+    }
+    
+    .left__side_education {
+        padding: 30px;
     }
     
     .left__side-ul {
@@ -132,15 +149,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-    
-    .right__side_header {
-        color: white;
-        background-color: black;
-        display: flex;
-        height: 25vh;
-        flex-direction: column;
-        justify-content: space-between;
     }
     
     .right__side_student {
@@ -188,7 +196,18 @@
         justify-content: space-between;
         align-items: center;
     }
-    /* .skils_item>progress {} */
+    
+    progress {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        background-size: auto;
+    }
+    
+    .right__side_languges {
+        margin-left: 30px;
+    }
     
     .footer__img {
         display: inline-block;
