@@ -88,7 +88,7 @@
     }
     
     .left__side_avatar {
-        background-image: url(asserts/professor.jpg);
+        background-image: url(assets/professor.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         border: 10px grey solid;
